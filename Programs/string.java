@@ -1,7 +1,7 @@
 public class string {
     public static void main(String[] args) {
         String name1 = "Hello";
-        String name2 = new String("Hi");
+        String name2 = new String("HHII");
         System.out.println(name1);
         System.out.println(name2);
         System.out.println(name1 == name2);
@@ -11,7 +11,7 @@ public class string {
         System.out.println(name1.charAt(1));
         System.out.println(name1.toUpperCase());
         System.out.println(name2.toLowerCase());
-        System.out.println(name2.trim());
+        System.out.println("HEL:" + name2.trim());
         char[] arr = name2.toCharArray();
         System.out.println(arr[0]);
         System.out.println(name2.isEmpty());

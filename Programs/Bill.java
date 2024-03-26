@@ -7,6 +7,7 @@
 import java.util.Scanner;
 
 public class Bill {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int unit;
         double bill;
