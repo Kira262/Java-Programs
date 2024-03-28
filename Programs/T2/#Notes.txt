@@ -5,4 +5,41 @@ Constructor
 - Constructor should have same name as class name.
 - Constructor does not have any return,  type not even void.
 - Constructor is used to initialize the instance variables.
+- Simple Block will run before the Constructor block Always.
 - Types: 1) Default 2) Parametered 3) Copy
+
+-Syntax:
+class t2_fourteen {
+    public static void main(String[] args) {
+        Test obj = new Test();
+    }
+}
+
+class Test {
+    Test() {
+        System.out.println("A COnstructor");
+    }
+}
+
+Static Keyword
+-Variable -Method -Block -Nested Class
+
+Static Method:
+- Belongs to Class  
+- Can be accessed without creating a class
+- Can access static data directly 
+
+
+Limitations: Static inside Static only
+
+
+THIS keyword 
+=>It refers to current class object.
+
+Uses:
+- current class instance
+- current class method
+- current class constructor
+- Passed as an argument
+- return of current class instance
+- Access instance variables
