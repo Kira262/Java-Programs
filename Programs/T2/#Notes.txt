@@ -1,0 +1,8 @@
+Constructor
+
+- A special method in class.
+- When object created constructor automatically called.
+- Constructor should have same name as class name.
+- Constructor does not have any return,  type not even void.
+- Constructor is used to initialize the instance variables.
+- Types: 1) Default 2) Parametered 3) Copy
