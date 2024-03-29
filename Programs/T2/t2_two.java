@@ -29,7 +29,7 @@ class Calculatee {
     }
 }
 
-class Maine {
+class Mainee1 {
     public static void main(String[] args) {
         Calculatee obj = new Calculatee();
         obj.sum();

@@ -1,11 +1,3 @@
 ### JAVA Programs & QB Solutions!!
 
-Just Check The Code & Tell If There is some Error!!
-
-Add Dates:
-
-1st-18/3/24
-
-2nd-20/3/24  
-
-3rd- 28/3/24
+Just Check The Code & if There is an Error just give a pull request!!

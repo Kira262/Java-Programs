@@ -15,7 +15,7 @@ class Calculate {
     }
 }
 
-class Main {
+class Maiee{
     public static void main(String[] args) {
         Calculate ob = new Calculate();
         ob.sum();
