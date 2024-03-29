@@ -9,11 +9,13 @@ Constructor
 - Types: 1) Default 2) Parametered 3) Copy
 
 -Syntax:
+
 class t2_fourteen {
     public static void main(String[] args) {
         Test obj = new Test();
     }
 }
+
 
 class Test {
     Test() {
@@ -21,8 +23,10 @@ class Test {
     }
 }
 
+
 Static Keyword
 -Variable -Method -Block -Nested Class
+
 
 Static Method:
 - Belongs to Class  
@@ -31,6 +35,7 @@ Static Method:
 
 
 Limitations: Static inside Static only
+
 
 
 THIS keyword 
@@ -43,3 +48,28 @@ Uses:
 - Passed as an argument
 - return of current class instance
 - Access instance variables
+
+
+
+Inheritance
+=> MEchanism in which one object aquires all properties and behaviour of another object
+
+- Class can be :> 1) Parent / Super Class 2) Child / Sub Class
+- New class can reuse methods and variables
+- Method overrides, super , final
+
+-Syntax:
+class sub-class extends super-class{}
+
+Types:
+1) Single 2) Multi-Level 3) Hierarchical 
+
+
+
+Super Keyword
+=> Only possible in Parent Child
+
+Uses:
+- to refer immediate parent classs object.
+- to invoke/call immediate parent class
+- to invoke Parent class constructor

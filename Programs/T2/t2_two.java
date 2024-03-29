@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Calculate {
+class Calculatee {
     int x;
     int y;
     Scanner sc = new Scanner(System.in);
@@ -29,9 +29,9 @@ class Calculate {
     }
 }
 
-class Main {
+class Maine {
     public static void main(String[] args) {
-        Calculate obj = new Calculate();
+        Calculatee obj = new Calculatee();
         obj.sum();
         obj.sub();
     }
