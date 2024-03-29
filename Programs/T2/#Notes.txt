@@ -73,3 +73,11 @@ Uses:
 - to refer immediate parent classs object.
 - to invoke/call immediate parent class
 - to invoke Parent class constructor
+
+
+
+Final Keyword
+- To restrict user
+- Value cannot be changed
+
+Applied to -> Variable, Methodm CLass
