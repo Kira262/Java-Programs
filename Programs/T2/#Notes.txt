@@ -67,7 +67,7 @@ Types:
 
 
 Super Keyword
-=> Only possible in Parent Child
+=> Only possible in Parent, Child
 
 Uses:
 - to refer immediate parent classs object.
@@ -80,4 +80,16 @@ Final Keyword
 - To restrict user
 - Value cannot be changed
 
-Applied to -> Variable, Methodm CLass
+Applied to -> Variable, Method CLass
+
+
+
+Access Specifier
+- Public
+
+- Private:Private can be used in variable and method but a class cannot be private.The visibility of private method or variable is within a class only.
+
+- Protected: Can be used in method and variables. A class cannot be protected. Protected method and variables can be accessed un same file and  different file under same packages, but they are not visible in different files under different packages.Protected methods or variables can be accessed in different files under different packages using inheritance only.  
+
+- Default:A class method or variable can be default. If do not mention any excess modifier then it will be considered as default.
+A default  class variable or method is visible in same file or different file but under the same packaage. Default class variable or method is not visible in different file under different packages.

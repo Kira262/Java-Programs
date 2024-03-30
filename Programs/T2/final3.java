@@ -1,4 +1,4 @@
-final class bike {
+class bike {
     bike() {
         System.out.println("Default Bike Constructor");
     }
@@ -12,6 +12,6 @@ class Honda extends bike {
 
 class Main23 {
     public static void main(String[] args) {
-        Honda obj = new Honda();
+        // Honda obj = new Honda();
     }
 }
