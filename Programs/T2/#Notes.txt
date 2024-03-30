@@ -81,3 +81,6 @@ Final Keyword
 - Value cannot be changed
 
 Applied to -> Variable, Methodm CLass
+
+same file or diff but under the same package,default class var or method is not visible in diff file under diff packes
+use in method & var a class dnt b protected method and var can be accessed in same or diff file under same folder but htey are not visible in diff file unter diff packeages directly
