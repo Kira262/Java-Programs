@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 class Account {
-    private int accountId;
-    private String name;
-    private double balance;
+    int accountId;
+    String name;
+    double balance;
 
     // Constructor
     public Account(int accountId, String name, double balance) {

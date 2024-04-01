@@ -1,9 +1,6 @@
 class Rectangle {
     // Data fields
-    private double x;
-    private double y;
-    private double width;
-    private double height;
+    private double x, y, width, height;
 
     // Default constructor
     public Rectangle() {
