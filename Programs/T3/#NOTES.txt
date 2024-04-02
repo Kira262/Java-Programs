@@ -1,0 +1,18 @@
+Ch-6 RunTime Polymorphism and Exception Handling
+
+Polymorphism:
+2 Types=> 1)Compile Time 2)Run Time
+
+Perform by:Method Over-loading & Method Over-riding
+
+Run Time also called DMD- Dynamic Method Dispatch
+
+
+Upcasting and Down Casting:
+-> Object can also be typecoated like data type.
+
+2 Types=> 1)Parent Object 2)Child Object
+
+2 Types of typecasting possible=> 1) Parent to Child(Down) 2) Child to Parent(Up) 
+
+typecasting can be -implicit & -explicit
