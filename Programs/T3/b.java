@@ -1,4 +1,4 @@
-class A {
+class AA {
     int x = 10;
 
     void get() {
@@ -6,7 +6,7 @@ class A {
     }
 }
 
-class B extends A {
+class BB extends AA {
     int x = 20;
 
     void get() {
@@ -14,7 +14,7 @@ class B extends A {
     }
 }
 
-class C extends A {
+class CC extends AA {
     int x = 30;
 
     void get() {
@@ -22,11 +22,11 @@ class C extends A {
     }
 }
 
-class Main {
+class b {
     public static void main(String[] args) {
-        A a = new A();
-        B b = new B();
-        C c = new C();
+        AA a = new AA();
+        BB b = new BB();
+        CC c = new CC();
         System.out.println(a.x);
         a = b;
         System.out.println(a.x);

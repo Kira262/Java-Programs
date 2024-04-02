@@ -16,3 +16,15 @@ Upcasting and Down Casting:
 2 Types of typecasting possible=> 1) Parent to Child(Down) 2) Child to Parent(Up) 
 
 typecasting can be -implicit & -explicit
+
+Abstraction:
+-> abstract keyword used to achieve Abstraction in java.
+-> Only class and Method.
+-> Abstract method can only be in abstract class.
+-> Abstract class can have both abstract and non-abstract method.
+-> Constructors can't be abstract.
+-> Abstract class can't be instantiated.
+-> Abstract method can't have body.
+-> Abstract class can have constructors.
+-> Abstract method must be implemented in child class.
+-> Abstract class can have over-loaded methods.
