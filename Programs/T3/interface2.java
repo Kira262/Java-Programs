@@ -1,8 +1,8 @@
 //Object creation of Interface
-interface vehicle{
+interface vehiclee{
     void ignite();
 }
-class twowheel implements vehicle{
+class twowheell implements vehiclee{
     // Explicitily  give public
     public void ignite(){
         System.out.println("BURN ");
@@ -10,7 +10,7 @@ class twowheel implements vehicle{
 }
 class interface2{
     public static void main(String[] args) {
-        vehicle v=new twowheel();
+        vehiclee v=new twowheell();
         v.ignite();
     }
 }

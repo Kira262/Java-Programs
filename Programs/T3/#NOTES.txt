@@ -51,7 +51,7 @@ interface printt{
 public static final void printt();}
 
 
-3 ways we can provide definition of a method in interface:
+3 ways we can provide definition of a method in interface:1)Default 2)Static 3) Private
 
 - default method: 
 Defined using default keyword.
@@ -60,5 +60,11 @@ Default methods can be over-riden.
 Default method have definitions. 
 
 - Static method:
+Can have definition in interface.
+Can't be over-riden.
+Can call static method using interface name.
 
-- Private method 
+- Private method:
+Can have definition inside interface.
+They are accessible inside interface only.
+They can't be used by creating objects. 

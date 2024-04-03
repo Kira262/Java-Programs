@@ -2,6 +2,7 @@ interface Veh {
     int engCap = 100;
 
     void ingite();
+    // default/Public/Private
 
     default void defMethod() {
         System.out.println("Default interface method");
