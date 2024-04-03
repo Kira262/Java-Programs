@@ -35,12 +35,13 @@ Abstraction:
 Interface in Java:
 -> They are blueprint of a class.
 -> Help to achieve abstraction & multiple inheritance.
--> Methods in interface are by default : Public Abstract
--> Variables in interface are : public static final
--> Interfaces are created using "interface" keyword.
 -> It's not possible to create object of interface.
 -> Interface can't have Constructors.
 -> Interface can't have static block, instant block.
+
+-> Methods in interface are by default : Public Abstract
+-> Variables in interface are : public static final
+-> Interfaces are created using "interface" keyword.
 -> interface printt{
     int min=5;
     void printt();
@@ -48,3 +49,16 @@ Interface in Java:
 interface printt{
     public static final int min=5;
 public static final void printt();}
+
+
+3 ways we can provide definition of a method in interface:
+
+- default method: 
+Defined using default keyword.
+Only allowed in interface.
+Default methods can be over-riden.
+Default method have definitions. 
+
+- Static method:
+
+- Private method 
