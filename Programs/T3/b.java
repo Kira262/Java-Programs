@@ -25,10 +25,10 @@ class CC extends AA {
 class b {
     public static void main(String[] args) {
         AA a = new AA();
-        BB b = new BB();
+        BB bb = new BB();
         CC c = new CC();
         System.out.println(a.x);
-        a = b;
+        a = bb;
         System.out.println(a.x);
         a = c;
         System.out.println(a.x);

@@ -16,7 +16,7 @@ class BC extends AB {
 
 class d {
     public static void main(String[] args) {
-        AB a = new AB();
+        // AB a = new AB();
         // BC b = new AB();
         // b = (BC) a;
         // b.get();

@@ -25,7 +25,7 @@ class chill extends params {
 class f {
     public static void main(String[] args) {
         params p = new chill();
-        params q = new params();
+        // params q = new params();
         p.name = "xyz";
         p.printt();
         // p.display(); // Error
