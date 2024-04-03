@@ -68,3 +68,17 @@ Can call static method using interface name.
 Can have definition inside interface.
 They are accessible inside interface only.
 They can't be used by creating objects. 
+
+
+
+EXception Handling in Java:
+-> An event that disturbs the flow of the program.
+-> Exception handling does not mean to repeat the program.
+-> Default Exception handling is done by JVM.
+-> When exception occurs the object is created using the following information:
+1) Name of the exception.
+2) Description of the exception.
+3) Location of the  exception.
+
+Exception heirarchy: Object -> Throwable
+Types: 1) Exception 2) Error

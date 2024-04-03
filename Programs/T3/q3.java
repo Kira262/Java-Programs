@@ -125,11 +125,27 @@ class SmartTV extends TV implements SmartTvRemote {
 class q3 {
     public static void main(String[] args) {
         FountainPen fp = new FountainPen();
+        fp.write();
+        fp.refill();
+        fp.nib();
         SmartTelephone stp = new SmartTelephone();
+        stp.lift();
+        stp.disconnect();
+        stp.useApps();
         Monkey mnk = new Monkey();
+        mnk.eat();
+        mnk.sleep();
+        mnk.jump();
+        mnk.bite();
         Human hm = new Human();
+        hm.eat();
+        hm.sleep();
+        hm.walk();
         TV ttv = new TV();
+        ttv.turnOn();
+        ttv.turnOff();
         SmartTV stv = new SmartTV();
-
+        stv.useApps();
+        stv.voiceCommand();
     }
 }
