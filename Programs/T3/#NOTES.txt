@@ -30,3 +30,21 @@ Abstraction:
 -> Constructors can't be abstract.
 -> Abstract class can't be instantiated.
 -> Abstract method can't have body.
+
+
+Interface in Java:
+-> They are blueprint of a class.
+-> Help to achieve abstraction & multiple inheritance.
+-> Methods in interface are by default : Public Abstract
+-> Variables in interface are : public static final
+-> Interfaces are created using "interface" keyword.
+-> It's not possible to create object of interface.
+-> Interface can't have Constructors.
+-> Interface can't have static block, instant block.
+-> interface printt{
+    int min=5;
+    void printt();
+}
+interface printt{
+    public static final int min=5;
+public static final void printt();}
