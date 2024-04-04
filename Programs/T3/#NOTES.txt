@@ -82,3 +82,27 @@ EXception Handling in Java:
 
 Exception heirarchy: Object -> Throwable
 Types: 1) Exception 2) Error
+
+Throwables:
+-> Built-in Exceptions: 1.Checked (Compile Time) 2.Unchecked(Run Time)
+-> User Defined
+
+Checked:
+1. ClassNotFound Exception
+2. Interrupted Exception
+3. IO Exception
+4. Instantiation Exception
+5. SQL Exception
+6. FileNotFound Exception 
+
+Unchecked:
+1. Arithmatic Exception
+2. ClassCast Exception
+3. NullPointer Exception
+4. (Array/String)IndexOutOfBound Exception
+5. ArrayStore Exception
+6. IllegalThread Exception
+
+Custom Exceptions/User defined Exceptions:
+-> Need to extend RunTime Exception.
+-> Exceptions are created as per our requirements
