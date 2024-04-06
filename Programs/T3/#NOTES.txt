@@ -106,3 +106,33 @@ Unchecked:
 Custom Exceptions/User defined Exceptions:
 -> Need to extend RunTime Exception.
 -> Exceptions are created as per our requirements
+
+
+StackOverFlowError->Unchecked
+NoClassDefFoundError->Unchecked
+ClassCastException->Unchecked
+ExceptionInInitializerError->Unchecked
+IllegalArgumentException->Unchecked
+
+
+Thread Based Multitasking:
+-> OS based Multitasking is at OS level (Multiprocessing).
+-> Thread based Multitasking is at programmer level (MultiThreading).
+-> We can create thread using : 1) Help of Thread Class. 2) Help of Runnable interface.
+
+
+Getting & Setting name of a thread:
+- getName()
+- setName()
+- getPriority()
+- SetPriority()
+- Sleep()
+- Join()
+
+
+Synchronization:
+-> It can be used with block or method.
+-> if method or block is synchronized at a time only one thread can access shared resource.
+-> Internally synchronization is implemented using lock.
+
+Syntax: Synchronized block() || Synchronized(object){}
