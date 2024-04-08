@@ -5,7 +5,6 @@ interface Shape {
 
 // Concrete implementation of the Shape interface for a Circle
 class Circle implements Shape {
-    @Override
     public void draw() {
         System.out.println("Drawing Circle");
     }
@@ -13,7 +12,6 @@ class Circle implements Shape {
 
 // Concrete implementation of the Shape interface for a Square
 class Square implements Shape {
-    @Override
     public void draw() {
         System.out.println("Drawing Square");
     }

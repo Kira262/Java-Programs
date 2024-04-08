@@ -9,7 +9,7 @@ class Animal {
 // Subclass Dog
 class Dog extends Animal {
     // Overriding the makeSound method
-    @Override
+
     void makeSound() {
         System.out.println("Dog barks");
     }
@@ -18,7 +18,7 @@ class Dog extends Animal {
 // Subclass Cat
 class Cat extends Animal {
     // Overriding the makeSound method
-    @Override
+
     void makeSound() {
         System.out.println("Cat meows");
     }
