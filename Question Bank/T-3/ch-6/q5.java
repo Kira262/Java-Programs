@@ -7,17 +7,17 @@ abstract class Shape {
 // Subclass Triangle
 class Triangle extends Shape {
     // Data members
-    private double base;
-    private double height;
+    double base;
+    double height;
 
     // Constructor
-    public Triangle(double base, double height) {
+    public Triangle(int base, int height) {
         this.base = base;
         this.height = height;
     }
 
     // Method to calculate area of triangle
-    @Override
+
     double area() {
         return 0.5 * base * height;
     }
@@ -26,17 +26,17 @@ class Triangle extends Shape {
 // Subclass Rectangle
 class Rectangle extends Shape {
     // Data members
-    private double length;
-    private double width;
+    int length;
+    int width;
 
     // Constructor
-    public Rectangle(double length, double width) {
+    public Rectangle(int length, int width) {
         this.length = length;
         this.width = width;
     }
 
     // Method to calculate area of rectangle
-    @Override
+
     double area() {
         return length * width;
     }
@@ -45,22 +45,22 @@ class Rectangle extends Shape {
 // Subclass Circle
 class Circle extends Shape {
     // Data member
-    private double radius;
+    int radius;
 
     // Constructor
-    public Circle(double radius) {
+    public Circle(int radius) {
         this.radius = radius;
     }
 
     // Method to calculate area of circle
-    @Override
+
     double area() {
         return Math.PI * radius * radius;
     }
 }
 
 // Main class
-public class q5 {
+class q5 {
     public static void main(String[] args) {
         // Creating objects of Triangle, Rectangle, and Circle
         Triangle triangle = new Triangle(3, 4);

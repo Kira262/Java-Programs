@@ -24,13 +24,11 @@ class CircleImpl implements Circle {
     double radius;
 
     // Method to set radius
-    @Override
     public void setRadius(double radius) {
         this.radius = radius;
     }
 
     // Method to calculate area of circle
-    @Override
     public double calculateArea() {
         return Math.PI * radius * radius;
     }
@@ -41,13 +39,11 @@ class SquareImpl implements Square {
     double side;
 
     // Method to set side
-    @Override
     public void setSide(double side) {
         this.side = side;
     }
 
     // Method to calculate area of square
-    @Override
     public double calculateArea() {
         return side * side;
     }

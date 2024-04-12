@@ -21,13 +21,11 @@ class Rectangle implements Polygon {
     }
 
     // Implementation of getArea() method
-    @Override
     public double getArea() {
         return length * width;
     }
 
     // Overriding getSides() method
-    @Override
     public int getSides() {
         return 4;
     }
@@ -43,7 +41,6 @@ class Square implements Polygon {
     }
 
     // Implementation of getArea() method
-    @Override
     public double getArea() {
         return side * side;
     }

@@ -11,7 +11,7 @@ abstract class Animal {
 
 // Tiger class extending Animal
 class Tiger extends Animal {
-    @Override
+
     void display() {
         System.out.println("Tiger");
     }
@@ -19,12 +19,11 @@ class Tiger extends Animal {
 
 // Camel class extending Animal and implementing Transport interface
 class Camel extends Animal implements Transport {
-    @Override
+
     void display() {
         System.out.println("Camel");
     }
 
-    @Override
     public void deliver() {
         System.out.println("Camel is delivering");
     }
@@ -32,7 +31,7 @@ class Camel extends Animal implements Transport {
 
 // Deer class extending Animal
 class Deer extends Animal {
-    @Override
+
     void display() {
         System.out.println("Deer");
     }
@@ -40,12 +39,11 @@ class Deer extends Animal {
 
 // Donkey class extending Animal and implementing Transport interface
 class Donkey extends Animal implements Transport {
-    @Override
+
     void display() {
         System.out.println("Donkey");
     }
 
-    @Override
     public void deliver() {
         System.out.println("Donkey is delivering");
     }

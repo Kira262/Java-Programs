@@ -20,6 +20,10 @@ class CC extends AA {
     void get() {
         System.out.println(x);
     }
+
+    public CC(int x) {
+        this.x = x;
+    }
 }
 
 class b {

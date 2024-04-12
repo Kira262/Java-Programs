@@ -1,7 +1,7 @@
 // Abstract class Vegetable
 abstract class Vegetable {
     // Instance variable to indicate color
-    protected String color;
+    String color;
 
     // Constructor
     public Vegetable(String color) {
@@ -12,7 +12,7 @@ abstract class Vegetable {
     abstract String getName();
 
     // Overriding toString() method to return name and color of vegetable
-    @Override
+
     public String toString() {
         return getName() + " (Color: " + color + ")";
     }
@@ -26,7 +26,7 @@ class Potato extends Vegetable {
     }
 
     // Implementation of abstract method getName() for Potato
-    @Override
+
     String getName() {
         return "Potato";
     }
@@ -40,7 +40,7 @@ class Brinjal extends Vegetable {
     }
 
     // Implementation of abstract method getName() for Brinjal
-    @Override
+
     String getName() {
         return "Brinjal";
     }
@@ -54,7 +54,7 @@ class Tomato extends Vegetable {
     }
 
     // Implementation of abstract method getName() for Tomato
-    @Override
+
     String getName() {
         return "Tomato";
     }
