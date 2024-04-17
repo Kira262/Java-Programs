@@ -1,0 +1,28 @@
+Queue Interface:
+
+-> Extends collection class.
+-> Classes that implements Queue
+	->Linked Queue
+	->Priority Queue
+	->ArrayDeque
+-> Queue is FIFO
+-> Does not allow Heterogenous Elements.
+
+Methods in Queue Interface:
+
+1.add() - insert element in queue
+2.offer() - insert element in queue
+3.element() - returns head of the queue(doesn't work on empty queue)
+4.peek() - returns head of the queue(works on empty queue)
+5.remove() - returns and removes the head of the queue(doesn't work on empty queue)
+6.poll() - returns and removes the head of the queue(works on empty queue)
+
+ArrayDeque:
+
+-> Extends Queue Interface.
+-> Elements can be inserted or removed from both end of the queue.
+-> Includes all Methods of queue Interface.
+-> Types of constructors:
+	-> ArrayDeque<Integer> AD1=new ArrayDeque<>();
+	-> ArrayDeque<Integer> AD2=new ArrayDeque<>(10);
+	-> ArrayDeque<Integer> AD3=new ArrayDeque<>(Comparator.reverseOrder());
