@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class SeriesSum {
+class Series {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

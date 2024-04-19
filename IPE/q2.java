@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ArithmeticOperations {
+class ArithmeticOp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
