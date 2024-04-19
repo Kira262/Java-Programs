@@ -44,7 +44,7 @@ class Triangle extends Figure {
     }
 }
 
-class Main {
+class Maine {
     public static void main(String[] args) {
         // Create a Rectangle object
         Rectangle rectangle = new Rectangle(5, 10);

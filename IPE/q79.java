@@ -63,7 +63,7 @@ class Employee extends Person {
     }
 }
 
-class PersonDemo {
+class DemoPerson {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

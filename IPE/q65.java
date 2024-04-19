@@ -4,7 +4,7 @@ class NegativeNumberException extends Exception {
     }
 }
 
-class NegativeNumberCheck {
+class NegativeNumber {
     public static void main(String[] args) {
         try {
             checkForNegativeNumbers(args);

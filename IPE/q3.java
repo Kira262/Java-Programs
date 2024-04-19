@@ -1,3 +1,5 @@
+// WAP to enter three subject marks, and calculate total, percentage of student and display the same in proper format.
+
 import java.util.Scanner;
 
 class StudentResult {

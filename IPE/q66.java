@@ -4,7 +4,7 @@ class InvalidValueException extends Exception {
     }
 }
 
-class PowerCalculator {
+class PowerCalc {
     public static void main(String[] args) {
         if (args.length != 2) {
             System.out.println("Usage: java PowerCalculator <x> <y>");

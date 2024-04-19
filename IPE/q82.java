@@ -39,12 +39,12 @@ class Buffer {
     }
 }
 
-class ProducerConsumer implements Runnable {
+class ProdCon implements Runnable {
     private Buffer buffer;
     private String source;
     private String destination;
 
-    public ProducerConsumer(Buffer buffer, String source, String destination) {
+    public ProdCon(Buffer buffer, String source, String destination) {
         this.buffer = buffer;
         this.source = source;
         this.destination = destination;
@@ -63,8 +63,8 @@ class ProducerConsumerDemo {
         Buffer buffer = new Buffer();
 
         // Instantiate two producer-consumer pairs
-        Thread producer1 = new Thread(new ProducerConsumer(buffer, "Producer1", "Consumer1"));
-        Thread producer2 = new Thread(new ProducerConsumer(buffer, "Producer2", "Consumer2"));
+        Thread producer1 = new Thread(new ProdCon(buffer, "Producer1", "Consumer1"));
+        Thread producer2 = new Thread(new ProdCon(buffer, "Producer2", "Consumer2"));
 
         producer1.start();
         producer2.start();

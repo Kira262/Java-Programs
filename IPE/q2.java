@@ -1,3 +1,4 @@
+// WAP that reads two nos. from key board and gives their addition, subtraction, multiplication, division and modulo.
 import java.util.Scanner;
 
 class ArithmeticOp {

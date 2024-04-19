@@ -1,3 +1,5 @@
+
+// WAP to calculate the Area of a Circle, Area and Perimeter of rectangle, Area of Triangle.
 import java.util.Scanner;
 
 class GeometryCalculator {
